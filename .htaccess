@@ -1,0 +1,13 @@
+# Add a # before the 4 following lines, if your server doesn't have a mod_rewrite 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)$ index.php?$1
+<FilesMatch "(\.htaccess)">
+  Order deny,allow
+  Deny from all
+</FilesMatch>
+<FilesMatch "sc-config.php">
+  Order deny,allow
+  Deny from all
+</FilesMatch>

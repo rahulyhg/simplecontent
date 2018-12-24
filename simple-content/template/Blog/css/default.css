@@ -1,0 +1,147 @@
+/**
+ *
+ * @author simplecontent, https://www.simplecontent-cms.org
+ * @name Blog 
+ * @sience 0.0.1
+ * @package simplecontent
+ * @subpackage Blog
+ *
+ */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body,html {
+  padding: 0;
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+#cookie-note {
+  display: block;
+  font-size: 1.0em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(169,169,169);
+  color: black;
+  padding: 10px;
+}
+#main-head-social-area {
+  text-align: right;
+  padding: 0.5%;
+}
+#main-head {
+  background-size: cover;
+  background-position: center;
+}
+#sicon-fa-fb {
+  color: white;
+}
+
+#sicon-fa-t {
+  color: white;
+}
+
+#sicon-fa-g {
+  color: white;
+}
+
+#sicon-fa-x {
+  color: white;
+}
+
+#sicon-fa-r {
+  color: white;
+}
+
+#comment-area {
+  width: 60%;
+} 
+
+.main-header-branding-content-title-heading {
+  color: white;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+#main-header-branding-content {
+  text-align: center;
+}
+.main-header-branding-content-title-desc {
+  color: white;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size: 1.3em;
+}
+#main-header-menu-content {
+  padding: 1%;
+}
+#main-header-menu-content a{
+  margin-right: 2%;
+  color: white;
+  text-decoration: none;
+  font-family: 1.5em;
+}
+#empty {
+  height: 5%;
+}
+#main-content-area,#content {
+  margin-left: 10%;  
+}
+#default-post {
+  padding: 2%;
+  width: 60%;
+}
+#default-post-meta-content {
+  text-transform: uppercase;
+  color: rgb(128,128,128);
+}
+#default-post-meta-content   {
+
+}
+.default-post-heading   {
+  text-transform: uppercase;
+}
+#default-post a,footer a,#c-area a{
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  display:inline-block;
+  border-bottom:1px solid black;
+  text-decoration: none;
+  padding-bottom:2px;
+}
+#main-header-menu-content a:hover {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+input,textarea{
+  font-family: Nunito, sans-serif;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 3px;
+  margin-top: 3px;
+}
+textarea {
+  width: 40%;
+}
+#default_subm,#default_clear {
+  font-family: Nunito, sans-serif;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 8px;
+}
+#comment {
+  background: rgb(216,216,216);
+  width: 40%;
+  border-radius: 6pX;
+  margin-top: 3%;
+  padding: 0.5%;
+}

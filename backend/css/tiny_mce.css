@@ -1,0 +1,48 @@
+
+/**
+ @author: SIMPLECONTENT
+ @desc: A CSS file for the TinyMCE Editor in the backend.
+ **/
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans');
+ p {
+ font-family: Roboto Slab, Georgia,'Times New Roman', serif,sans-serif;
+ font-size: 13px;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Open Sans, Georgia,'Times New Roman', serif,sans-serif;
+}
+address {
+    font-family: Roboto Slab, Georgia,'Times New Roman', serif,sans-serif;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background:black;
+    box-sizing:border-box;
+    display: block;
+    color:whitesmoke;
+    padding: 7px;
+    width: 60%;
+}
+blockquote p{
+    border-left: 3px;
+    border-left-color: #0080ff;
+}
+a:hover {
+    color: #0080df;
+    text-decoration: none;
+}
+a:visited {
+    line-height: 3px;
+    color: #0080df;
+    text-decoration: underline;
+    text-decoration-color: #0080df;
+}
+a {
+    line-height: 3px;
+    color: #0080df;
+    text-decoration: underline;
+    text-decoration-color: #0080df;
+}
