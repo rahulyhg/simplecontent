@@ -11,7 +11,7 @@ if(mysqli_num_rows($query) == 1) {
   $item = mysqli_fetch_assoc($query);
   if(getSetting("where_show_posts") != $item['post_meta_id']) {
   $text = connectMySQL("SELECT * FROM " . TBL_PRF . "posts WHERE post_id='$item[post_meta_id]'",true,false);
-  echo "\n<h2>$item[post_meta_title]</h2>\n";  
+  echo "\n<h2>$item['post_meta_title']</h2>\n";  
   $category = get_category_by_id($item['post_category_id']);
   $date     = $item['post_publish_date'];
   $author   = getAuthorById($text['post_author_id']);
