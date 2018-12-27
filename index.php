@@ -5,7 +5,7 @@
  * simplecontent Version 0.0.1
  * 
  * More information: https://simplecontent-cms.org
- * Manual: https://simplecontent-cms.org/manual
+ * Manual: https://manual.simplecontent-cms.org/
  */
  
  require_once ( "sc-show.php" );
