@@ -124,7 +124,8 @@ function get_header()
          } 
     $title = getSetting("sitename");
      $subtitle = getSetting("subsitename");
-     print("<title>$title – $subtitle</title>");
+     print("<title>$title – $subtitle</title>\n");
+    print("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"); 
     
     
     } 
